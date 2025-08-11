@@ -30,18 +30,17 @@ To isolate an application, we intercept system calls. To have reasonable perform
 We provide the following images:
 
 
-| **golang**:**original tag** | ghcr.com/scontain/:**pushed tags** |
-|---|---|
-| `1.24.2-bookworm` | `1.24.2-bookworm`, `1`, `1.24`, `1.24.2`, `1.24-bookworm`, `1-bookworm`, `bookworm` |
-| `1.24.2-alpine3.21` | `1.24.2-alpine3.21`, `1.24-alpine3.21`, `1-alpine3.21`, `alpine3.21`, `1.24.2-alpine`, `1.24-alpine`, `1-alpine`, `alpine` |
-| `1.23.8-bullseye` | `1.23.8-bullseye` |
-| `1.23.8-bookworm` | `1.23.8-bookworm` |
-| `1.23.8-alpine3.21` | `1.23.8-alpine3.21` |
-| `1.22.12-bookworm` | `1.22.12-bookworm` |
-| `1.22.12-alpine3.21` | `1.22.12-alpine3.21` |
-| `1.22.5-bullseye` | `1.22.5-bullseye` |
-| `1.22.5-alpine3.20` | `1.22.5-alpine3.20` |
-| `1.20.5-alpine3.18` | `1.20.5-alpine3.18` |
+| ghcr.io/scontain/golang |
+| --- |
+| 1.20.5-alpine3.18 |
+| 1.22.12-alpine3.21 |
+| 1.22.12-bookworm |
+| 1.22.5-alpine3.20 |
+| 1.22.5-bookworm |
+| 1.23.8-alpine3.21 |
+| 1.23.8-bookworm |
+| 1.24.2-alpine3.21 |
+| 1.24.2-bookworm |
 
 
 All images are signed and the images can be verified with `cosign` using the following key:
