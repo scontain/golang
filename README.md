@@ -32,6 +32,7 @@ We provide the following images:
 
 | ghcr.io/scontain/golang |
 | --- |
+| 1 |
 | 1.20.5-alpine3.18 |
 | 1.22.12-alpine3.21 |
 | 1.22.12-bookworm |
