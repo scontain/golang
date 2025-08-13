@@ -11,7 +11,7 @@ permissions:
 jobs:
   automerge:
     if: github.actor == 'scontainit'
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Approve PR
         run: gh pr review --approve "$PR_URL"
