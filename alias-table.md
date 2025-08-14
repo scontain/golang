@@ -1,0 +1,17 @@
+# Shared Tags
+
+As the upstream `golang` images, we maintain shared tags. These shared tage always point to the container images that has the highest patch or minor level. This is easier to visualize using the following table:
+
+| Simple Tag | Shared Tags |
+| --- | --- |
+| 1.25.0-trixie | 1.25.0, 1.25, 1, latest |
+| 1.25.0-bookworm |  |
+| 1.25.0-alpine3.22 |  |
+| 1.25.0-alpine3.21 |  |
+| 1.24.6-trixie | 1.24.6, 1.24 |
+| 1.24.6-bookworm |  |
+| 1.24.6-alpine3.22 |  |
+| 1.24.6-alpine3.21 |  |
+
+
+(We automatically update the table each time we update the shared tags)
