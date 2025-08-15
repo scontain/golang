@@ -43,14 +43,24 @@ We provide the following images (`simple tags`):
 | 1.23.12-bookworm |
 | 1.23.8-alpine3.21 |
 | 1.23.8-bookworm |
+| 1.24 |
 | 1.24.2-alpine3.21 |
 | 1.24.2-bookworm |
+| 1.24.6 |
 | 1.24.6-alpine3.21 |
 | 1.24.6-alpine3.22 |
 | 1.24.6-bookworm |
+| 1.24.6-trixie |
+| 1.25 |
+| 1.25.0 |
+| 1.25.0-alpine3.21 |
+| 1.25.0-alpine3.22 |
+| 1.25.0-bookworm |
+| 1.25.0-trixie |
 | 1.25rc3-alpine3.21 |
 | 1.25rc3-alpine3.22 |
 | 1.25rc3-bookworm |
+| latest |
 
 ## Shared Tags
 
