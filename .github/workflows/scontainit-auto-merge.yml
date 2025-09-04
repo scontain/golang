@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   automerge:
-    if: github.event.pull_request.user.login == 'scontainit'
+    if: github.event.pull_request.user.login == 'scontain'
     runs-on: ubuntu-latest
     steps:
       - name: Approve PR
