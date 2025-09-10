@@ -119,7 +119,7 @@ The most straightforward way to use this image is to use a Go container as both 
 cd go-example
 
 cat > Dockerfile <<EOF
-FROM ghcr.com/scontain/golang:1.24
+FROM ghcr.io/scontain/golang:1.24
 
 WORKDIR /usr/src/app
 
@@ -146,27 +146,27 @@ docker run -it --rm --name my-running-app my-golang-app
 There may be occasions where it is not appropriate to run your app inside a container. To compile, but not run your app inside the Docker instance, you can write something like:
 
 ```bash
-docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.com/scontain/golang:1.24 go build -v
+docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.io/scontain/golang:1.24 go build -v
 ```
 
 This will add your current directory as a volume to the container, set the working directory to the volume, and run the command go build which will tell go to compile the project in the working directory and output the executable to myapp. Alternatively, if you have a Makefile, you can run the make command inside your container.
 
 ```bash
-docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.com/scontain/golang:1.24 make build
+docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.io/scontain/golang:1.24 make build
 ```
 
 Cross-compile your app inside the Docker container
 If you need to compile your application for a platform other than linux/amd64 (such as windows/386):
 
 ```bash
-docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp -e GOOS=windows -e GOARCH=386 ghcr.com/scontain/golang:1.24 go build -v
+docker run --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp -e GOOS=windows -e GOARCH=386 ghcr.io/scontain/golang:1.24 go build -v
 ```
 
 Alternatively, you can build for multiple platforms at once:
 
 ```bash
 mkdir -p bin
-docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.com/scontain/golang:1.24 bash -lc '\
+docker run --rm -it -v "$PWD":/usr/src/myapp -w /usr/src/myapp ghcr.io/scontain/golang:1.24 bash -lc '\
 	    set -euo pipefail; \
 	    for GOOS in linux; do \
 	      for GOARCH in 386 amd64; do \
@@ -184,13 +184,13 @@ If downloading your dependencies results in an error like "checksum mismatch", y
 
 The golang images come in many flavors, each designed for a specific use case.
 
-### `ghcr.com/scontain/golang:<version>`
+### `ghcr.io/scontain/golang:<version>`
 
 This is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.
 
 Some of these tags may have names like bookworm or bullseye in them. These are the suite code names for releases of Debian⁠ and indicate which release the image is based on. If your image needs to install any additional packages beyond what comes with the image, you'll likely want to specify one of these explicitly to minimize breakage when there are new releases of Debian.
 
-### `ghcr.com/scontain/golang:<version>-alpine`
+### `ghcr.io/scontain/golang:<version>-alpine`
 
 This image is based on the popular Alpine Linux project⁠, available in the alpine official image. Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
 
