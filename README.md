@@ -63,6 +63,12 @@ We provide the following images (`simple tags`):
 | 1.24.7-alpine3.22 |
 | 1.24.7-bookworm |
 | 1.24.7-trixie |
+| 1.24.8 |
+| 1.24.8-alpine |
+| 1.24.8-alpine3.21 |
+| 1.24.8-alpine3.22 |
+| 1.24.8-bookworm |
+| 1.24.8-trixie |
 | 1.25 |
 | 1.25-alpine |
 | 1.25-alpine3.21 |
@@ -79,6 +85,12 @@ We provide the following images (`simple tags`):
 | 1.25.1-alpine3.22 |
 | 1.25.1-bookworm |
 | 1.25.1-trixie |
+| 1.25.2 |
+| 1.25.2-alpine |
+| 1.25.2-alpine3.21 |
+| 1.25.2-alpine3.22 |
+| 1.25.2-bookworm |
+| 1.25.2-trixie |
 | 1.25rc3-alpine3.21 |
 | 1.25rc3-alpine3.22 |
 | 1.25rc3-bookworm |
