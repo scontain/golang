@@ -63,6 +63,12 @@ We provide the following images (`simple tags`):
 | 1.24.7-alpine3.22 |
 | 1.24.7-bookworm |
 | 1.24.7-trixie |
+| 1.24.8 |
+| 1.24.8-alpine |
+| 1.24.8-alpine3.21 |
+| 1.24.8-alpine3.22 |
+| 1.24.8-bookworm |
+| 1.24.8-trixie |
 | 1.25 |
 | 1.25-alpine |
 | 1.25-alpine3.21 |
@@ -79,6 +85,12 @@ We provide the following images (`simple tags`):
 | 1.25.1-alpine3.22 |
 | 1.25.1-bookworm |
 | 1.25.1-trixie |
+| 1.25.2 |
+| 1.25.2-alpine |
+| 1.25.2-alpine3.21 |
+| 1.25.2-alpine3.22 |
+| 1.25.2-bookworm |
+| 1.25.2-trixie |
 | 1.25rc3-alpine3.21 |
 | 1.25rc3-alpine3.22 |
 | 1.25rc3-bookworm |
@@ -86,6 +98,20 @@ We provide the following images (`simple tags`):
 | alpine3.21 |
 | alpine3.22 |
 | latest |
+| sha256-12626de7d050e7a936eaf950e9e3cb5bcfee8079ca0bf528936d7f99c4435a1b |
+| sha256-157df7929628587abdd5c2c8137670501e6011d60884f2cc49e328ee44f034ca |
+| sha256-1f1340d671cc000db3ec3cef9d7e05d0e9b7e6c9a0015727476d9a95b1c7281d |
+| sha256-210a0019bd178377f92352c29537ca817094a49611e90e981926ce75142aa42a |
+| sha256-2790ed739d3ea9305b4fdfd01c88391ab45c306de56654890f7aac3b87605274 |
+| sha256-614bae09243fd6b8cef1fbcaef135bbd975668636ca4ca38b51b6313cea7624e |
+| sha256-717c9171769aa7ba10bc6bb11d14383aff244038f424bc598c52991f181c32bd |
+| sha256-8ede5c41ad2eeaef21e83a0a4134d46a1cea7b5e9b695eccd6b9da3c956a607c |
+| sha256-93ceafdc6a9d1619f97ea223a96fee647b304a74dbf52b589dc67671b1fe0c26 |
+| sha256-94d06d4aedb7a451868210cb69a8c708bd0177a84d4d059dfc97c70ad219baf9 |
+| sha256-9d505b5c9fca5b08b87a7cedca313cb87464a140b1491162b21cb1d487c1afdf |
+| sha256-ac328f7f82b744f7beaf2ce9a285496c798c5278e6b7b9f7fb5b367b7c38df51 |
+| sha256-cf6463c6e5551e2568d1b62d1ac1e0be3854621bdacf26c4734b3aaf89159be9 |
+| sha256-ffe61479eca5a8c146a40b966dd04f15b4bcc3d653aa20750fc55e26b25bad85 |
 
 ## Shared Tags
 
