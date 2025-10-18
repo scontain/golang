@@ -16,10 +16,10 @@ jobs:
       - name: Approve PR
         run: gh pr review --approve "$PR_URL" || true
         env:
-          GITHUB_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
+          GH_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
           PR_URL: ${{ github.event.pull_request.html_url }}
       - name: Enable auto-merge
         run: gh pr merge --auto --squash "$PR_URL"
         env:
-          GITHUB_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
+          GH_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
           PR_URL: ${{ github.event.pull_request.html_url }}
