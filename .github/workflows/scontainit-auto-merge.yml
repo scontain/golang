@@ -12,14 +12,11 @@ jobs:
   automerge:
     if: github.event.pull_request.user.login == 'scontain'
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR_URL: ${{ github.event.pull_request.html_url }}
     steps:
       - name: Approve PR
         run: gh pr review --approve "$PR_URL" || true
-        env:
-          GH_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
-          PR_URL: ${{ github.event.pull_request.html_url }}
       - name: Enable auto-merge
         run: gh pr merge --auto --squash "$PR_URL"
-        env:
-          GH_TOKEN: ${{ secrets.SCONTAIN_GOLANG_PAT }}
-          PR_URL: ${{ github.event.pull_request.html_url }}
