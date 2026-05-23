@@ -32,118 +32,38 @@ To isolate an application, we intercept system calls. To have reasonable perform
 
 We provide the following images (`simple tags`):
 
-| ghcr.io/scontain/golang |
-| --- |
-| 1 |
-| 1-alpine |
-| 1-alpine3.21 |
-| 1-alpine3.22 |
-| 1-alpine3.23 |
-| 1.20.5-alpine3.18 |
-| 1.22.12-alpine3.21 |
-| 1.22.12-bookworm |
-| 1.22.5-alpine3.20 |
-| 1.22.5-bookworm |
-| 1.23.12-alpine3.21 |
-| 1.23.12-alpine3.22 |
-| 1.23.12-bookworm |
-| 1.23.8-alpine3.21 |
-| 1.23.8-bookworm |
-| 1.24 |
-| 1.24-alpine |
-| 1.24-alpine3.21 |
-| 1.24-alpine3.22 |
-| 1.24.10 |
-| 1.24.10-alpine |
-| 1.24.10-alpine3.21 |
-| 1.24.10-alpine3.22 |
-| 1.24.10-bookworm |
-| 1.24.10-trixie |
-| 1.24.2-alpine3.21 |
-| 1.24.2-bookworm |
-| 1.24.6 |
-| 1.24.6-alpine |
-| 1.24.6-alpine3.21 |
-| 1.24.6-alpine3.22 |
-| 1.24.6-bookworm |
-| 1.24.6-trixie |
-| 1.24.7 |
-| 1.24.7-alpine |
-| 1.24.7-alpine3.21 |
-| 1.24.7-alpine3.22 |
-| 1.24.7-bookworm |
-| 1.24.7-trixie |
-| 1.24.8 |
-| 1.24.8-alpine |
-| 1.24.8-alpine3.21 |
-| 1.24.8-alpine3.22 |
-| 1.24.8-bookworm |
-| 1.24.8-trixie |
-| 1.24.9 |
-| 1.24.9-alpine |
-| 1.24.9-alpine3.21 |
-| 1.24.9-alpine3.22 |
-| 1.24.9-bookworm |
-| 1.24.9-trixie |
-| 1.25 |
-| 1.25-alpine |
-| 1.25-alpine3.21 |
-| 1.25-alpine3.22 |
-| 1.25-alpine3.23 |
-| 1.25.0 |
-| 1.25.0-alpine |
-| 1.25.0-alpine3.21 |
-| 1.25.0-alpine3.22 |
-| 1.25.0-bookworm |
-| 1.25.0-trixie |
-| 1.25.1 |
-| 1.25.1-alpine |
-| 1.25.1-alpine3.21 |
-| 1.25.1-alpine3.22 |
-| 1.25.1-bookworm |
-| 1.25.1-trixie |
-| 1.25.10 |
-| 1.25.10-alpine |
-| 1.25.10-alpine3.22 |
-| 1.25.10-alpine3.23 |
-| 1.25.10-bookworm |
-| 1.25.10-trixie |
-| 1.25.2 |
-| 1.25.2-alpine |
-| 1.25.2-alpine3.21 |
-| 1.25.2-alpine3.22 |
-| 1.25.2-bookworm |
-| 1.25.2-trixie |
-| 1.25.3 |
-| 1.25.3-alpine |
-| 1.25.3-alpine3.21 |
-| 1.25.3-alpine3.22 |
-| 1.25.3-bookworm |
-| 1.25.3-trixie |
-| 1.25.4 |
-| 1.25.4-alpine |
-| 1.25.4-alpine3.21 |
-| 1.25.4-alpine3.22 |
-| 1.25.4-bookworm |
-| 1.25.4-trixie |
-| 1.25rc3-alpine3.21 |
-| 1.25rc3-alpine3.22 |
-| 1.25rc3-bookworm |
-| 1.26 |
-| 1.26-alpine |
-| 1.26-alpine3.22 |
-| 1.26-alpine3.23 |
-| 1.26.3 |
-| 1.26.3-alpine |
-| 1.26.3-alpine3.22 |
-| 1.26.3-alpine3.23 |
-| 1.26.3-bookworm |
-| 1.26.3-trixie |
-| alpine |
-| alpine3.21 |
-| alpine3.22 |
-| alpine3.23 |
-| latest |
+| ghcr.io/scontain/golang Version | Tags |
+| --- | --- |
+| 1.26.3 | `1`, `1-alpine`, `1-alpine3.21`, `1-alpine3.22`, `1-alpine3.23`, `1.26`, `1.26-alpine`, `1.26-alpine3.22`, `1.26-alpine3.23`, `1.26.3`, `1.26.3-alpine`, `1.26.3-alpine3.22`, `1.26.3-alpine3.23`, `1.26.3-bookworm`, `1.26.3-trixie`, `alpine`, `alpine3.22`, `alpine3.23`, `latest` |
+| 1.25.10 | `1.25`, `1.25-alpine`, `1.25-alpine3.21`, `1.25-alpine3.22`, `1.25-alpine3.23`, `1.25.10`, `1.25.10-alpine`, `1.25.10-alpine3.22`, `1.25.10-alpine3.23`, `1.25.10-bookworm`, `1.25.10-trixie` |
+| 1.25.4 | `1.25.4`, `1.25.4-alpine`, `1.25.4-alpine3.21`, `1.25.4-alpine3.22`, `1.25.4-bookworm`, `1.25.4-trixie` |
+| 1.25.3 | `1.25.3`, `1.25.3-alpine`, `1.25.3-alpine3.21`, `1.25.3-alpine3.22`, `1.25.3-bookworm`, `1.25.3-trixie` |
+| 1.25.2 | `1.25.2`, `1.25.2-alpine`, `1.25.2-alpine3.21`, `1.25.2-alpine3.22`, `1.25.2-bookworm`, `1.25.2-trixie` |
+| 1.25.1 | `1.25.1`, `1.25.1-alpine`, `1.25.1-alpine3.21`, `1.25.1-alpine3.22`, `1.25.1-bookworm`, `1.25.1-trixie` |
+| 1.25.0 | `1.25.0`, `1.25.0-alpine`, `1.25.0-alpine3.21`, `1.25.0-alpine3.22`, `1.25.0-bookworm`, `1.25.0-trixie` |
+| 1.25rc3 | `1.25rc3-alpine3.21`, `1.25rc3-alpine3.22`, `1.25rc3-bookworm` |
+| 1.24.10 | `1.24`, `1.24-alpine`, `1.24-alpine3.21`, `1.24-alpine3.22`, `1.24.10`, `1.24.10-alpine`, `1.24.10-alpine3.21`, `1.24.10-alpine3.22`, `1.24.10-bookworm`, `1.24.10-trixie` |
+| 1.24.9 | `1.24.9`, `1.24.9-alpine`, `1.24.9-alpine3.21`, `1.24.9-alpine3.22`, `1.24.9-bookworm`, `1.24.9-trixie` |
+| 1.24.8 | `1.24.8`, `1.24.8-alpine`, `1.24.8-alpine3.21`, `1.24.8-alpine3.22`, `1.24.8-bookworm`, `1.24.8-trixie` |
+| 1.24.7 | `1.24.7`, `1.24.7-alpine`, `1.24.7-alpine3.21`, `1.24.7-alpine3.22`, `1.24.7-bookworm`, `1.24.7-trixie` |
+| 1.24.6 | `1.24.6`, `1.24.6-alpine`, `1.24.6-alpine3.21`, `1.24.6-alpine3.22`, `1.24.6-bookworm`, `1.24.6-trixie` |
+| 1.24.2 | `1.24.2-alpine3.21`, `1.24.2-bookworm` |
+| 1.23.12 | `1.23.12-alpine3.21`, `1.23.12-alpine3.22`, `1.23.12-bookworm` |
+| 1.23.8 | `1.23.8-alpine3.21`, `1.23.8-bookworm` |
+| 1.22.12 | `1.22.12-alpine3.21`, `1.22.12-bookworm` |
+| 1.22.5 | `1.22.5-alpine3.20`, `1.22.5-bookworm` |
+| 1.20.5 | `1.20.5-alpine3.18` |
+
+### Alias Tags
+
+| Simple Tag | Shared Tags |
+| --- | --- |
+| `1.26.3-alpine3.23` | `1.26-alpine3.23`, `1-alpine3.23`, `alpine3.23`, `1.26.3-alpine`, `1.26-alpine`, `1-alpine`, `alpine` |
+| `1.26.3-alpine3.22` | `1.26-alpine3.22`, `1-alpine3.22`, `alpine3.22` |
+| `1.25.10-alpine3.23` | `1.25-alpine3.23`, `1.25.10-alpine`, `1.25-alpine` |
+| `1.25.10-alpine3.22` | `1.25-alpine3.22` |
+| `1.26.3-trixie` | `1.26.3`, `1.26`, `1`, `latest` |
+| `1.25.10-trixie` | `1.25.10`, `1.25` |
 
 ## Shared Tags
 
