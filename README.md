@@ -34,8 +34,10 @@ We provide the following images (`simple tags`):
 
 | ghcr.io/scontain/golang Version | Tags |
 | --- | --- |
-| 1.26.3 | `1`, `1-alpine`, `1-alpine3.21`, `1-alpine3.22`, `1-alpine3.23`, `1.26`, `1.26-alpine`, `1.26-alpine3.22`, `1.26-alpine3.23`, `1.26.3`, `1.26.3-alpine`, `1.26.3-alpine3.22`, `1.26.3-alpine3.23`, `1.26.3-bookworm`, `1.26.3-trixie`, `Shared`, `Simple`, `Tag`, `alpine`, `alpine3.22`, `alpine3.23`, `latest` |
-| 1.25.10 | `1.25`, `1.25-alpine`, `1.25-alpine3.21`, `1.25-alpine3.22`, `1.25-alpine3.23`, `1.25.10`, `1.25.10-alpine`, `1.25.10-alpine3.22`, `1.25.10-alpine3.23`, `1.25.10-bookworm`, `1.25.10-trixie` |
+| 1.26.4 | `1`, `1-alpine`, `1-alpine3.21`, `1-alpine3.22`, `1-alpine3.23`, `1.26`, `1.26-alpine`, `1.26-alpine3.22`, `1.26-alpine3.23`, `1.26.4`, `1.26.4-alpine`, `1.26.4-alpine3.22`, `1.26.4-alpine3.23`, `1.26.4-bookworm`, `1.26.4-trixie`, `Shared`, `Simple`, `Tag`, `alpine`, `alpine3.22`, `alpine3.23`, `latest` |
+| 1.26.3 | `1.26.3`, `1.26.3-alpine`, `1.26.3-alpine3.22`, `1.26.3-alpine3.23`, `1.26.3-bookworm`, `1.26.3-trixie` |
+| 1.25.11 | `1.25`, `1.25-alpine`, `1.25-alpine3.21`, `1.25-alpine3.22`, `1.25-alpine3.23`, `1.25.11`, `1.25.11-alpine`, `1.25.11-alpine3.22`, `1.25.11-alpine3.23`, `1.25.11-bookworm`, `1.25.11-trixie` |
+| 1.25.10 | `1.25.10`, `1.25.10-alpine`, `1.25.10-alpine3.22`, `1.25.10-alpine3.23`, `1.25.10-bookworm`, `1.25.10-trixie` |
 | 1.25.4 | `1.25.4`, `1.25.4-alpine`, `1.25.4-alpine3.21`, `1.25.4-alpine3.22`, `1.25.4-bookworm`, `1.25.4-trixie` |
 | 1.25.3 | `1.25.3`, `1.25.3-alpine`, `1.25.3-alpine3.21`, `1.25.3-alpine3.22`, `1.25.3-bookworm`, `1.25.3-trixie` |
 | 1.25.2 | `1.25.2`, `1.25.2-alpine`, `1.25.2-alpine3.21`, `1.25.2-alpine3.22`, `1.25.2-bookworm`, `1.25.2-trixie` |
@@ -58,12 +60,12 @@ We provide the following images (`simple tags`):
 
 | Simple Tag | Shared Tags |
 | --- | --- |
-| `1.26.3-alpine3.23` | `1.26-alpine3.23`, `1-alpine3.23`, `alpine3.23`, `1.26.3-alpine`, `1.26-alpine`, `1-alpine`, `alpine` |
-| `1.26.3-alpine3.22` | `1.26-alpine3.22`, `1-alpine3.22`, `alpine3.22` |
-| `1.25.10-alpine3.23` | `1.25-alpine3.23`, `1.25.10-alpine`, `1.25-alpine` |
-| `1.25.10-alpine3.22` | `1.25-alpine3.22` |
-| `1.26.3-trixie` | `1.26.3`, `1.26`, `1`, `latest` |
-| `1.25.10-trixie` | `1.25.10`, `1.25` |
+| `1.26.4-alpine3.23` | `1.26-alpine3.23`, `1-alpine3.23`, `alpine3.23`, `1.26.4-alpine`, `1.26-alpine`, `1-alpine`, `alpine` |
+| `1.26.4-alpine3.22` | `1.26-alpine3.22`, `1-alpine3.22`, `alpine3.22` |
+| `1.25.11-alpine3.23` | `1.25-alpine3.23`, `1.25.11-alpine`, `1.25-alpine` |
+| `1.25.11-alpine3.22` | `1.25-alpine3.22` |
+| `1.26.4-trixie` | `1.26.4`, `1.26`, `1`, `latest` |
+| `1.25.11-trixie` | `1.25.11`, `1.25` |
 
 ## Image Signatures
 
