@@ -34,7 +34,8 @@ We provide the following images (`simple tags`):
 
 | ghcr.io/scontain/golang Version | Tags |
 | --- | --- |
-| 1.26.5 | `1`, `1-alpine`, `1-alpine3.21`, `1-alpine3.22`, `1-alpine3.23`, `1-alpine3.24`, `1.26`, `1.26-alpine`, `1.26-alpine3.22`, `1.26-alpine3.23`, `1.26-alpine3.24`, `1.26.5`, `1.26.5-alpine`, `1.26.5-alpine3.23`, `1.26.5-alpine3.24`, `1.26.5-bookworm`, `1.26.5-trixie`, `Shared`, `Simple`, `Tag`, `alpine`, `alpine3.23`, `alpine3.24`, `latest` |
+| 1.27rc2 | `1`, `1-alpine`, `1-alpine3.21`, `1-alpine3.22`, `1-alpine3.23`, `1-alpine3.24`, `1.27rc2`, `1.27rc2-alpine`, `1.27rc2-alpine3.23`, `1.27rc2-alpine3.24`, `1.27rc2-bookworm`, `1.27rc2-trixie`, `1.27-rc`, `1.27-rc-alpine`, `1.27-rc-alpine3.23`, `1.27-rc-alpine3.24`, `Shared`, `Simple`, `Tag`, `alpine`, `alpine3.23`, `alpine3.24`, `latest` |
+| 1.26.5 | `1.26`, `1.26-alpine`, `1.26-alpine3.22`, `1.26-alpine3.23`, `1.26-alpine3.24`, `1.26.5`, `1.26.5-alpine`, `1.26.5-alpine3.23`, `1.26.5-alpine3.24`, `1.26.5-bookworm`, `1.26.5-trixie` |
 | 1.26.4 | `1.26.4`, `1.26.4-alpine`, `1.26.4-alpine3.22`, `1.26.4-alpine3.23`, `1.26.4-alpine3.24`, `1.26.4-bookworm`, `1.26.4-trixie` |
 | 1.26.3 | `1.26.3`, `1.26.3-alpine`, `1.26.3-alpine3.22`, `1.26.3-alpine3.23`, `1.26.3-bookworm`, `1.26.3-trixie` |
 | 1.25.12 | `1.25`, `1.25-alpine`, `1.25-alpine3.21`, `1.25-alpine3.22`, `1.25-alpine3.23`, `1.25-alpine3.24`, `1.25.12`, `1.25.12-alpine`, `1.25.12-alpine3.23`, `1.25.12-alpine3.24`, `1.25.12-bookworm`, `1.25.12-trixie` |
